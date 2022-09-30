@@ -1,4 +1,4 @@
-const { ttdl } = require("../lib/tiktok");
+const { ttdl } = require("../lib/scraper");
 const { cekKey } = require('../database/db');
 
 async function tiktokDown(req, res) {
